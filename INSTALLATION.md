@@ -2,9 +2,9 @@
 
 ## Quick Install (Recommended)
 
-### Option 1: Using degit (One Command)
+### Option 1: Using degit (One Command) ⭐ Recommended
 ```bash
-npx degit your-github-username/ai-chatbot-demo-kit my-project/chatbot
+npx degit anombyte93/ai-chatbot-demo-kit my-project/chatbot
 cd my-project/chatbot
 npm install
 cp .env.example .env
@@ -13,7 +13,7 @@ cp .env.example .env
 
 ### Option 2: Using Git Clone
 ```bash
-git clone https://github.com/your-github-username/ai-chatbot-demo-kit.git my-project/chatbot
+git clone https://github.com/anombyte93/ai-chatbot-demo-kit.git my-project/chatbot
 cd my-project/chatbot
 rm -rf .git  # Remove git history
 npm install
@@ -24,7 +24,7 @@ cp .env.example .env
 ### Option 3: Using Git Submodule (for tracking updates)
 ```bash
 cd my-project
-git submodule add https://github.com/your-github-username/ai-chatbot-demo-kit.git chatbot
+git submodule add https://github.com/anombyte93/ai-chatbot-demo-kit.git chatbot
 cd chatbot
 npm install
 cp .env.example .env
@@ -95,7 +95,7 @@ npm install
 If installed via degit/clone:
 ```bash
 # Re-run the installation command to get latest version
-npx degit your-github-username/ai-chatbot-demo-kit my-project/chatbot --force
+npx degit anombyte93/ai-chatbot-demo-kit my-project/chatbot --force
 ```
 
 ## Troubleshooting
