@@ -1,5 +1,5 @@
 import { ChromaClient, Collection, type EmbeddingFunction } from 'chromadb';
-import { DefaultEmbeddingFunction } from '@chroma-core/default-embed';
+import { DefaultEmbeddingFunction } from 'chromadb-default-embed';
 
 export interface Document {
   id: string;
